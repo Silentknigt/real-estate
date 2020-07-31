@@ -1,0 +1,100 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:orange;
+  border-radius: 10px;
+}
+.header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding-bottom: 250px;    
+}
+
+.search-field{
+    height: 50px;
+    padding: 10px;
+    border: none;
+   
+
+}
+.bussiness{
+    width: 400px;
+    
+}
+.location{
+    width: 200px;
+    
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    
+}
+.search-btn:hover{
+    background: #ffc107;
+    cursor: pointer;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: orange;
+  color: white;
+}
+a:link {
+  color:black;
+}
+a:hover {
+  color: orange;
+}
+
+
+.box{
+  background: white;
+  transition: 0.5s;
+
+}
+.box:hover{
+  transform: scale(1.1);
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+  
+}
